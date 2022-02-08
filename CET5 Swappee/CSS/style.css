@@ -8,20 +8,20 @@
 
 .header {
     background-color: deepskyblue;
-    margin:auto;
     /*Remove border after*/
-    border: 5px solid black;
+    /* border: 5px solid black; */
     padding-left: 30px;
     padding-right: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*LOGO*/
 #logo {
     color: whitesmoke;
-    font-size: 50px;
-    border: 2px solid black;
+    font-size: 75px;
+    /*remove border*/
+    /* border: 2px solid black; */
 }
 /*for texts in menu and logo*/
 a:visited {
@@ -42,8 +42,8 @@ a:link {
 
 .menu {
     font-size: 25px;
-    border: 5px solid black;
-    border-width: 50%;
+    /* border: 5px solid black;
+    border-width: 50%; */
 }
 
 .menu ul {
@@ -54,7 +54,7 @@ a:link {
     display: inline;
     margin-left: 1rem;
     margin-right: 1rem;
-    border-color: black;
+    /* border-color: black; */
     border: 2px;
 }
 
@@ -63,5 +63,11 @@ a:link {
 }
 
 .menu ul li a:hover {
-    color: red;
+    color: #8DE3C7;
+    text-decoration: underline;
+}
+
+/*Search Bar*/
+.search {
+    float: right;
 }
