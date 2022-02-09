@@ -16,17 +16,27 @@
     padding-bottom: 5px;
 }
 
+.title-profile {
+    display: inline;
+    width: 50%;
+    border: 1px solid black;
+}
+
 /*LOGO*/
 #logo {
     color: whitesmoke;
     font-size: 75px;
-    /*remove border*/
+    float: left;
     /* border: 2px solid black; */
+}
+
+.clearfix {
+    clear: both;
 }
 /*for texts in menu and logo*/
 a:visited {
     text-decoration: none;
-    color: azure;
+    color: rgb(252, 252, 252);
 }
 
 a:active {
@@ -71,3 +81,15 @@ a:link {
 .search {
     float: right;
 }
+
+/* Profile Picture */
+#profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    float: right;
+    line-height: 10px;
+    border: 1px solid black;
+    display: inline;
+    line-height: 50%;
+}
+
